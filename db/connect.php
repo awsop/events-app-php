@@ -1,9 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "sbi";
-$password = "Shiva@3578";
-$db = "event";
+$servername = "wordpress.cs6royptlt8t.us-west-2.rds.amazonaws.com";
+$username = "wordpress";
+$password = "wordpress123";
+$db = "events";
 
 // Create connection
 $con = mysqli_connect($servername, $username, $password,$db);
